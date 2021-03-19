@@ -1,0 +1,22 @@
+{
+  "name": "bob_dylan_trello",
+  "version": "1.0.0",
+  "description": "Bob Dylan api for WyeWorks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Alejo Wasser <alejowasser@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "prompt": "^1.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
